@@ -24,7 +24,7 @@ app.use('/api/register', require("./routes/auth/register"))
 
 if(process.env.NODE_ENV==='production'){
     const path = require('path');
-    app.get('/',(req, res)=>{
+    app.get('/*',(req, res)=>{
         app.use(express.static(path.resolve(__dirname,'frontend','build')))
         res.sendFile(path.resolve(__dirname,'frontend','build','index.html'))
     })
