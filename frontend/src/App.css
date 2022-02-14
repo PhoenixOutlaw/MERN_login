@@ -1,0 +1,22 @@
+
+
+.d-flex{
+  display: flex;
+}
+.d-flex-c{
+  display: flex;
+  flex-direction: column;
+}
+.margin-a{
+  margin: auto;
+}
+.justif-c{
+  justify-content: center;
+}
+.align-c{
+  align-items: center;
+}
+
+.d-grid{
+  display:grid;
+}
